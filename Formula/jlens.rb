@@ -3,28 +3,27 @@
 class Jlens < Formula
   desc "Evaluate, check and explain JSONata expressions"
   homepage "https://thkprado.github.io/jlens/"
-  version "0.14.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/thkprado/jlens/releases/download/v0.14.0/jlens-0.14.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d61e318f4e5409a065e715750e77a73065984ab5f5f06df22a4cd82e4c73b280"
+      url "https://github.com/thkprado/jlens/releases/download/v0.15.0/jlens-0.15.0-aarch64-apple-darwin.tar.gz"
+      sha256 "8c0715b6620718655935d99366dca06d677e19c031df92dea99aa2fd4bbff5af"
     end
     on_intel do
-      url "https://github.com/thkprado/jlens/releases/download/v0.14.0/jlens-0.14.0-x86_64-apple-darwin.tar.gz"
-      sha256 "29cc7e1ee07e6727fe764ed5cfd634646a09ce17eb2ffecb1a8c09e8d95aefad"
+      url "https://github.com/thkprado/jlens/releases/download/v0.15.0/jlens-0.15.0-x86_64-apple-darwin.tar.gz"
+      sha256 "d493812605d5af18af6d40fabfbd34e041b95bf419485961078e250e77fcbe88"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/thkprado/jlens/releases/download/v0.14.0/jlens-0.14.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "8a8603ec7769a6ffda11d28a953841c7709841ece1f82e910bc8a74f58736c51"
+      url "https://github.com/thkprado/jlens/releases/download/v0.15.0/jlens-0.15.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "5eefff95f7240a0f1d004b1b91dfa2807ee3c8ceaf9a9ae30d15467be6d2dd40"
     end
     on_intel do
-      url "https://github.com/thkprado/jlens/releases/download/v0.14.0/jlens-0.14.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "8c38b380afbb8871893be54758652725139ec831102f27b590aa7059262ec7aa"
+      url "https://github.com/thkprado/jlens/releases/download/v0.15.0/jlens-0.15.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "66a5798605a9730e14d8e5cd9c070829c755524b2fa30ad63434f13d3dee90c9"
     end
   end
 
