@@ -7,23 +7,23 @@ class Jlens < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/thkprado/jlens/releases/download/v0.32.0/jlens-0.32.0-aarch64-apple-darwin.tar.gz"
-      sha256 "c059886ad7343ade6006629fcb19da1f988ef86cfcc7bdf1f934ea45e946e5d5"
+      url "https://github.com/thkprado/jlens/releases/download/v0.33.0/jlens-0.33.0-aarch64-apple-darwin.tar.gz"
+      sha256 "b4fa438fc275f91c3babc43af18546fe96feafefcb3f0507cfb5885db45d64be"
     end
     on_intel do
-      url "https://github.com/thkprado/jlens/releases/download/v0.32.0/jlens-0.32.0-x86_64-apple-darwin.tar.gz"
-      sha256 "4d058d54e6c9fc5a8464778f101b577a80dc57c58f48879f58e4b604e198344d"
+      url "https://github.com/thkprado/jlens/releases/download/v0.33.0/jlens-0.33.0-x86_64-apple-darwin.tar.gz"
+      sha256 "a4083570e5d7b458cac0dce0bcdc57f46db88326051de3ffd531a25e19fe16b4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/thkprado/jlens/releases/download/v0.32.0/jlens-0.32.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "e7a9a69387c1a8f5c558a7dda5755a12aeab0a4d8424bd43c1ab27e719040c7b"
+      url "https://github.com/thkprado/jlens/releases/download/v0.33.0/jlens-0.33.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "134094e5c6a4aedad00b0e75053e5620189b23d5df53f5a89b5e66e35d638922"
     end
     on_intel do
-      url "https://github.com/thkprado/jlens/releases/download/v0.32.0/jlens-0.32.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "beac1a56451be077d8002eedd0680ba38403252656ca1ea179f07e1cc1bec5d4"
+      url "https://github.com/thkprado/jlens/releases/download/v0.33.0/jlens-0.33.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "c7756c0fd804ab78b8e2dc3fb7adc912af9c13fd452896dff6ada442483e22fd"
     end
   end
 
